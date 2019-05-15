@@ -1,0 +1,28 @@
+{
+  "name": "node-echo-server",
+  "version": "1.0.0",
+  "description": "Simple HTTP server that echos requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:CodeSchwert/node-echo-server.git"
+  },
+  "author": "CodeSchwert (https://github.com/CodeSchwert)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeSchwert/node-echo-server/issues"
+  },
+  "homepage": "https://github.com/CodeSchwert/node-echo-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1"
+  }
+}
